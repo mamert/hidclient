@@ -1,4 +1,11 @@
 # hidclient
+
+**THIS IS A FORK**
+
+You are possibly looking for https://github.com/xenogenesi/hidclient
+
+**Original description follows**
+
 fork of Anselm Martin Hoffmeister's [hidclient](http://anselm.hoffmeister.be/computer/hidclient/index.html.en)
 
 hidclient is a Virtual Bluetooth® keyboard and mouse
@@ -30,7 +37,7 @@ Compile hidclient.c with
 
     gcc -o hidclient -O2 -lbluetooth -Wall hidclient.c
     
-You don't need to copy anything into `/etc/bluetooth`. Might be a good idea to edit `/etc/bluetooth/main.conf` and set `DisabledPlugins=input` there, and `Class=0x000540` - that helps identifying the device as a "keyboard".
+You don't need to copy anything inthttps://github.com/xenogenesi/hidcliento `/etc/bluetooth`. Might be a good idea to edit `/etc/bluetooth/main.conf` and set `DisabledPlugins=input` there, and `Class=0x000540` - that helps identifying the device as a "keyboard".
 Now run
 
     sudo ./hidclient -l
